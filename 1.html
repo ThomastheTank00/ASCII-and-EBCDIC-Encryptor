@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <link href="hw2style.css" rel="stylesheet">
+    <script src="encoding.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <body>
+        <div>
+            <label for="inputChar">Enter text here: </label>
+            <input type="text" id="inputChar" maxlength="256">
+        </div>
+        <div>
+            <p>Choose the type of encoding: </p> 
+            <input type="radio" id="ascii" name="encoding" value="ascii">
+            <label for="ascii">ASCII</label><br>
+            <input type="radio" id="ebcdic" name="encoding" value="ebcdic">
+            <label for="ebcdic">EBCDIC</label><br><br>
+        </div>
+        <div>
+            <button id='btn' onclick="convertToHex();">Run!</button>
+        </div>
+        <p id="output"></p>
+    </body>
+</html>

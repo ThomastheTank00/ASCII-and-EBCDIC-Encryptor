@@ -1,0 +1,13 @@
+body{
+    font-size: 18px;
+    text-align: center;
+}
+label[for="inputChar"]{
+    font-weight: bold;
+}
+div>p{
+    font-weight: bold;
+}
+button{
+    font-weight: bold;
+}
